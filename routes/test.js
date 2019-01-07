@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 const axios = require('axios');
 
-const constants = require('../constant');
+const constants = require('../constants');
 
 router.get('/', function(req, res, next) {
   console.log(req.query);

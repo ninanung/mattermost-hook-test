@@ -30,7 +30,7 @@ npm install
 
 # Setting
 
-1. Open `constant.js` file and change `MATTERMOST_SERVER_URL`, `BOT_SERVER_URL` and `TOKEN` to your own value.  
+1. Open `constant.js` file and change `MATTERMOST_SERVER_URL`, `BOT_SERVER_URL`, `CALLBACK_URL` and `TOKEN` to your own value.  
 2. Make your `Integrations` at the Mattermost and connect to this test server.  
 
 # Start server

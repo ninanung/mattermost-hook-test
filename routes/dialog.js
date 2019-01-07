@@ -5,7 +5,7 @@ var router = express.Router();
 const bodyParser = require('body-parser')
 const jsonParser = bodyParser.json();
 
-const constants = require('../constant');
+const constants = require('../constants');
 
 router.get('/', jsonParser, function(req, res, next) {
     const trigger_id = req.query.trigger_id;
@@ -21,7 +21,7 @@ router.get('/', jsonParser, function(req, res, next) {
             title: 'dialog title',
             elements: [
                 {
-                    display_name: 'display name of this area',
+                    display_name: 'text display name',
                     name: 'textprops',
                     type: 'text',
                     placeholder: 'text placeholder',
