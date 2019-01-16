@@ -80,7 +80,7 @@ router.get('/incoming', function(req, res, next) {
           "value": "Testing"
           }
         ],
-        "image_url": "http://www.mattermost.org/wp-content/uploads/2016/03/logoHorizontal_WS.png"
+        "image_url": "https://imgflip.com/s/meme/Leonardo-Dicaprio-Cheers.jpg"
       }
     ]
   }
